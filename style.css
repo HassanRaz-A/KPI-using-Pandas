@@ -1,0 +1,73 @@
+/* General body styling for dark theme */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Label styling */
+.label {
+    color: white;
+    font-weight: bold;
+}
+
+/* Input container styling */
+.input {
+    margin: 10px;
+}
+
+/* Graph container styling */
+.graph {
+    margin: 20px;
+}
+
+/* Dash graph background styling */
+.dash-graph .main-svg {
+    background-color: black !important;
+}
+
+/* Dash plotly graph background styling */
+.dash-graph .plotly {
+    background-color: black;
+}
+
+/* Dash graph text styling */
+.dash-graph .main-svg text {
+    fill: white !important;
+}
+
+/* Dash graph axis styling */
+.dash-graph .main-svg .xaxislayer-above, .dash-graph .main-svg .yaxislayer-above {
+    stroke: white;
+}
+
+/* Specific div styling override */
+div {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid white !important;
+    padding: 10px !important;
+    margin: 10px !important;
+    border-radius: 5px;
+}
+
+/* Dropdown styling */
+.dash-dropdown .Select-menu-outer {
+    background-color: black;
+    color: white;
+}
+
+/* Input styling */
+input {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+/* Checklist styling */
+.dash-checklist label {
+    color: white;
+}
+
+/* Dropdown menu styling */
+.Select--single > .Select-control .Select-value, .Select
